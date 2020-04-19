@@ -69,5 +69,3 @@ Pdfexpert.vip.js = requires-body=1,max-size=0,script-path=https://raw.githubuser
 fantastical.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/fantastical.js,type=http-response,pattern=^https:\/\/api\.flexibits\.com\/v1\/(auth|account)\/(device|details|appstore-receipt)\/$
 # 闪电下载 vip 
 sdxz.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/sdxz.js,type=http-response,pattern=^http\:\/\/app\.flashdown365\.com\/ios\/login
-# 小影 vip
-vivavideo.js = requires-body=1,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/vivavideo.js,type=http-response,pattern=^https:\/\/viva\.v21xy\.com\/api\/rest\/u\/vip
