@@ -19,7 +19,7 @@ WeChat.js = script-path=https://Choler.github.io/Surge/Script/WeChat.js,type=htt
 # > YouTube 去广告
 YouTube.js = script-path=https://Choler.github.io/Surge/Script/YouTube.js,type=http-request,pattern=^https://[\s\S]*\.googlevideo\.com/.*&(oad|ctier)
 # > VSCO滤镜 vip
-vsco.js = requires-body=1,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/vsco.js,type=http-response,pattern=^https?:\/\/vsco\.co\/api\/subscriptions\/2.1\/user-subscriptions\/
+// vsco.js = requires-body=1,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/vsco.js,type=http-response,pattern=^https?:\/\/vsco\.co\/api\/subscriptions\/2.1\/user-subscriptions\/
 # > 香蕉视频 vip
 xjsp.js = requires-body=1,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/xjsp.js,type=http-response,pattern=^https?:\/\/.*\.(fuli|xiang(jiao|xiang))apps\.com\/(ucp\/index|getGlobalData|.+\/reqplay\/)
 # > WPS vip
@@ -39,7 +39,7 @@ rrtv.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.c
 # > 克拉壁纸 解锁
 // clarity.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/clarity.js,type=http-response,pattern=^https:\/\/claritywallpaper\.com\/clarity\/api\/(userInfo|special\/queryByCatalogAll)
 # XMind思维导图 vip
-XMind.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/XMind.js,type=http-response,pattern=https:\/\/www\.xmind\.cn\/\_res\/devices
+// XMind.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/XMind.js,type=http-response,pattern=https:\/\/www\.xmind\.cn\/\_res\/devices
 # > Dayone日记 vip
 # pre_dayone 成功后禁用
 // dayone-pre.js = debug=1,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/dayone-pre.js,type=http-request,pattern=^https:\/\/dayone\.me\/api\/users$
@@ -52,13 +52,13 @@ workingcopy.js = requires-body=1,max-size=0,script-path=https://raw.githubuserco
 # > Pdfexpert 解锁
 Pdfexpert.vip.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/langkhach270389/Scripting/master/Pdfexpert.vip.js,script-update-interval=0,type=http-response,pattern=^https:\/\/license\.pdfexpert\.com\/api\/.+\/subscription\/(refresh$|check$)
 # > Gyroscope 解锁 
-gyroscope.js = requires-body=1,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/gyroscope.js,type=http-response,pattern=^https:\/\/api\.gyrosco\.pe\/v1\/account\/$
+// gyroscope.js = requires-body=1,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/gyroscope.js,type=http-response,pattern=^https:\/\/api\.gyrosco\.pe\/v1\/account\/$
 # > 小小影视 vip 
 // xxys.js = requires-body=1,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/xxys.js,type=http-response,pattern=https:\/\/.*\.xiaoxiao.*\.com\/(vod\/reqplay\/|ucp/index|getGlobalData)
 # > 爱美剧 vip 
 // aimeiju.js = requires-body=1,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/aimeiju.js,type=http-response,pattern=^https?:\/\/api.bjxkhc.com\/index\.php\/app\/ios\/(vod\/show|(user|vod|topic|type)\/index)
 # > PicsArt美易 pro
-// PicsArt.js = requires-body=1,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/PicsArt.js,type=http-response,pattern=^https:\/\/api\.(picsart|meiease)\.c(n|om)\/users\/show\/me\.json
+PicsArt.js = requires-body=1,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/PicsArt.js,type=http-response,pattern=^https:\/\/api\.(picsart|meiease)\.c(n|om)\/users\/show\/me\.json
 # > Fantastical 解锁
 fantastical.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/fantastical.js,type=http-response,pattern=^https:\/\/api\.flexibits\.com\/v1\/(auth|account)\/(device|details|appstore-receipt)\/$
 # 闪电下载 vip 
