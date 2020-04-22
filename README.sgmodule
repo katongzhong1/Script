@@ -32,8 +32,8 @@ WPS破解•JS = requires-body=1,script-path=https://raw.githubusercontent.com/N
 扫描全能王破解•JS = requires-body=1,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/CamScanner.js,type=http-response,pattern=^https:\/\/(api|api-cs)\.intsig\.net\/purchase\/cs\/query_property\?
 # > Bear熊掌记 vip
 // Bear熊掌记破解•JS = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/bear.js,type=http-response,pattern=^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt
-# > 115 离线 
-// 115离线•JS = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/115lx.js,type=http-response,pattern=^http:\/\/115\.com\/lx.*$
+# > 115云盘 离线 
+// 115云盘离线•JS = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/115lx.js,type=http-response,pattern=^http:\/\/115\.com\/lx.*$
 # > 人人视频 解锁AI原画
 人人视频破解•JS = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/rrtv.js,type=http-response,pattern=^https:\/\/api\.rr\.tv(\/user\/privilege\/list|\/ad\/getAll|\/rrtv-video\/v4plus\/season\/detail)
 # > 克拉壁纸 解锁
