@@ -57,7 +57,9 @@ Pdfexpert办公•JS = requires-body=1,max-size=0,script-path=https://raw.github
 PicsArt美易•JS = requires-body=1,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/PicsArt.js,type=http-response,pattern=^https:\/\/api\.(picsart|meiease)\.c(n|om)\/users\/show\/me\.json
 # > Fantastical日历 解锁
 Fantastical日历•JS = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/fantastical.js,type=http-response,pattern=^https:\/\/api\.flexibits\.com\/v1\/(auth|account)\/(device|details|appstore-receipt)\/$
-# 闪电下载 vip 
+# > 闪电下载 vip 
 闪电下载•JS = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/sdxz.js,type=http-response,pattern=^http\:\/\/app\.flashdown365\.com\/ios\/login
 # > Pear雪梨 vip
 Pear雪梨•JS = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/pear.js,type=http-response,pattern=^https:\/\/m\.pearkin\.com\/(api\/Movie\/WatchMovie|api\/Account\/CheckVip|api\/account\/IndexDetail)
+# > 百度云盘解析
+百度云盘•JS = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/MeetaRules/master/Surge/Scripting/yun_analyze.js,type=http-response,pattern=^https?:\/\/pan\.baidu\.com\/s\/
