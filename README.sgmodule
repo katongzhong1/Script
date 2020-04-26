@@ -52,8 +52,8 @@ YouTube 去广告 = script-path=https://Choler.github.io/Surge/Script/YouTube.js
 香蕉视频 𝙫𝙞𝙥 = requires-body=1,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/xjsp.js,type=http-response,pattern=^https?:\/\/.*\.(fuli|xiang(jiao|xiang))apps\.com\/(ucp\/index|getGlobalData|.+\/reqplay\/)
 # > WPS办公 vip
 WPS办公 𝙫𝙞𝙥 = requires-body=1,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Wps.js,type=http-response,pattern=^https://account.wps.*/api/users/
-# > 大千视界 解锁
-大千视界 解锁 = requires-body=1,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/dqsj.js,type=http-response,pattern=^https:\/\/api\.mvmtv\.com\/index\.php.*(c=user.*a=info|a=addr.*vid=.*)
+# > 大千视界 vip
+大千视界 𝙫𝙞𝙥 = requires-body=1,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/dqsj.js,type=http-response,pattern=^https:\/\/api\.mvmtv\.com\/index\.php.*(c=user.*a=info|a=addr.*vid=.*)
 # > 扫描全能王 pro
 扫描全能王 𝙥𝙧𝙤 = requires-body=1,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/CamScanner.js,type=http-response,pattern=^https:\/\/(api|api-cs)\.intsig\.net\/purchase\/cs\/query_property\?
 # > Bear熊掌记 vip
@@ -83,9 +83,9 @@ PicsArt美易 𝙥𝙧𝙤 = requires-body=1,script-path=https://raw.githubuserc
 Fantastical日历 𝙫𝙞𝙥 = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/fantastical.js,type=http-response,pattern=^https:\/\/api\.flexibits\.com\/v1\/(auth|account)\/(device|details|appstore-receipt)\/$
 # > 闪电下载 vip 
 闪电下载 𝙫𝙞𝙥 = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/sdxz.js,type=http-response,pattern=^http\:\/\/app\.flashdown365\.com\/ios\/login
-# > Pear雪梨 vip
 # > 彩云天气 𝙫𝙞𝙥
 彩云天气vip = type=http-response,pattern=https://biz.caiyunapp.com/v2/user\?app_name=weather,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/Surge/master/Script/caiyun.js
+# > Pear雪梨 vip
 Pear雪梨 𝙫𝙞𝙥 = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/pear.js,type=http-response,pattern=^https:\/\/m\.pearkin\.com\/(api\/Movie\/WatchMovie|api\/Account\/CheckVip|api\/account\/IndexDetail)
 # > 百度云盘 解析
 百度云盘 解析 = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/MeetaRules/master/Surge/Scripting/yun_analyze.js,type=http-response,pattern=^https?:\/\/pan\.baidu\.com\/s\/
