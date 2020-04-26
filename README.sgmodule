@@ -3,7 +3,7 @@
 #!system=ios
 
 [Host]
-iosapps.itunes.apple.com = script: Apple 加速
+iosapps.itunes.apple.com = script:Apple 加速
 *.126.com = server:119.29.29.29
 *.126.net = server:119.29.29.29
 *.127.net = server:119.29.29.29
