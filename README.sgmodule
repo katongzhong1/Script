@@ -30,7 +30,7 @@ cdn.pcbeta.static.inimc.com = 120.52.19.113
 hdslb.com = server:119.29.29.29
 
 [URL Rewrite]
-# > Redirect Google Service
+# > 重写谷歌服务
 ^https?:\/\/(www.)?(g|google)\.cn https://www.google.com 302
 
 [Script]
