@@ -1,5 +1,5 @@
 #!name=Script
-#!desc=Script合集脚本
+#!desc=Script合集脚本•包含Host映射、URL重写、Script破解、集成所需主机名；
 #!system=ios
 
 [Host]
