@@ -1,5 +1,5 @@
 #!name=Script
-#!desc=Script合集脚本•包含Host映射、URL重写、Script破解、集成所需主机名；
+#!desc=Script合集•包含Host映射、URL重写、Script破解、集成所需主机名；
 #!system=ios
 
 [Host]
@@ -92,3 +92,4 @@ Apple 加速 = type=dns,script-path=https://raw.githubusercontent.com/langkhach2
 
 [MITM]
 hostname = %INSERT% mp.weixin.qq.com, *.googlevideo.com, , *.xiaoxiao*.com, ios.fuliapps.com, apple.fuliapps.com, ios.xiangjiaoapps.com, apple.xiangjiaoapps.com, *.xiangxiangapps.com, api.m.jd.com, trade-acs.m.taobao.com, m.pearkin.com, education.github.com, api.rr.tv, vsco.co, account.wps.cn, ap*.intsig.net, claritywallpaper.com, www.xmind.cn, dayone.me, license.pdfexpert.com, app.flashdown365.com, api.picsart.c*, api.meiease.c*, api.flexibits.com, api.gyrosco.pe, ios.prod.ftl.netflix.com, api.bjxkhc.com 
+
